@@ -1,0 +1,56 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'
+             xmlns:c="urn:import:com.google.gwt.user.cellview.client"
+             xmlns:s="urn:import:com.enterpriseios.client">
+    <ui:style>
+        .scrollable {
+          height: 400px;
+          width: 400px;
+          border: 1px solid #ccc;
+          text-align: left;
+        }
+
+        .deviceInfoCell {
+          padding-left: 20px;
+        }
+
+        .textbox {
+
+        }
+
+    </ui:style>
+    <g:HTMLPanel>
+        <table>
+            <tr>
+                <td valign="top" align="left">
+                    <s:ShowMorePagerPanel
+                        styleName='{style.scrollable}'
+                        ui:field="pagerPanel"/>
+                    <s:RangeLabelPager
+                        ui:field="rangeLabelPager"/>
+
+                </td>
+            </tr>
+            <tr>
+                <td>User:</td>
+            </tr>
+            <tr>
+                <td><g:TextBox ui:field="user"/></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+            </tr>
+            <tr>
+                <td><g:TextBox ui:field="password"/></td>
+            </tr>
+            <tr>
+                <td>
+                    <g:HorizontalPanel spacing="5">
+                        <g:Button text="Add" ui:field="add"/>
+                        <g:Button text="Remove Selected" ui:field="remove"/>
+                    </g:HorizontalPanel>   
+                </td>
+            </tr>
+        </table>
+    </g:HTMLPanel>
+</ui:UiBinder>

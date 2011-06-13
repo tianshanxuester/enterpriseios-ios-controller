@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.enterpriseios</groupId>
+		<artifactId>demo</artifactId>
+		<version>1.3.0</version>
+	</parent>
+
+	<groupId>com.enterpriseios</groupId>
+	<artifactId>jetty-push</artifactId>
+	<name>jetty-push module</name>
+    <packaging>jar</packaging>
+	<build>
+		<defaultGoal>install</defaultGoal>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+						<configuration>
+							<descriptors>
+								<descriptor>src/main/assembly/jetty-push-assembly.xml</descriptor>
+							</descriptors>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+        <resources>
+          <resource>
+            <directory>src/main/resources/etc</directory>
+            <excludes>
+                <exclude>spring/*.xml</exclude>
+                <exclude>*.xml</exclude>
+                <exclude>*.properties</exclude>
+            </excludes>
+          </resource>
+        </resources>
+	</build>
+	<dependencies>
+        <dependency>
+            <groupId> jaxen</groupId>
+            <artifactId> jaxen</artifactId>
+            <version> 1.1.1</version>
+        </dependency>
+        <dependency>
+            <groupId> org.jdom</groupId>
+            <artifactId> jdom</artifactId>
+            <version> 1.1</version>
+        </dependency>
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-webapp</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-servlets</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-client</artifactId>
+		</dependency> 
+
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+		</dependency>
+        
+        <dependency>
+            <groupId> com.sleepycat</groupId>
+            <artifactId> je</artifactId>
+            <version> 4.1.6</version>
+        </dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>${springframework.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-beans</artifactId>
+			<version>${springframework.version}</version>
+		</dependency>
+        <dependency>
+            <groupId> org.springframework</groupId>
+            <artifactId> spring-context</artifactId>
+            <version>${springframework.version}</version>
+        </dependency>
+        <dependency>
+            <groupId> org.springframework.security</groupId>
+            <artifactId> spring-security-core</artifactId>
+            <version>${springframework.version}</version>
+        </dependency>
+        <dependency>
+            <groupId> org.springframework.security</groupId>
+            <artifactId> spring-security-web</artifactId>
+            <version>${springframework.version}</version>
+        </dependency>
+        <dependency>
+            <groupId> org.springframework.security</groupId>
+            <artifactId> spring-security-config</artifactId>
+            <version>${springframework.version}</version>
+        </dependency>
+        <dependency>
+            <groupId> org.slf4j</groupId>
+            <artifactId> slf4j-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId> org.slf4j</groupId>
+            <artifactId> slf4j-log4j12</artifactId>
+        </dependency>
+		<!--
+			Testing
+		-->
+        <dependency>
+            <groupId> org.hamcrest</groupId>
+            <artifactId> hamcrest-all</artifactId>
+            <scope>test</scope>
+            <version> 1.1</version>
+        </dependency>
+        <dependency>
+            <groupId> org.jmock</groupId>
+            <artifactId> jmock-junit4</artifactId>
+            <scope>test</scope>
+            <version> 2.5.1</version>
+        </dependency>
+        <dependency>
+            <groupId> org.jmock</groupId>
+            <artifactId> jmock-legacy</artifactId>
+            <scope>test</scope>
+            <version> 2.5.1</version>
+        </dependency>
+        <dependency>
+            <groupId> cglib</groupId>
+            <artifactId> cglib-nodep</artifactId>
+            <scope>test</scope>
+            <version> 2.1_3</version>
+        </dependency>
+        <dependency>
+            <groupId> org.objenesis</groupId>
+            <artifactId> objenesis</artifactId>
+            <scope>test</scope>
+            <version> 1.0</version>
+        </dependency>
+	</dependencies>
+</project>

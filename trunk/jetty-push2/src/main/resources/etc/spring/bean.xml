@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:security="http://www.springframework.org/schema/security"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+                           http://www.springframework.org/schema/util
+                           http://www.springframework.org/schema/util/spring-util-3.0.xsd
+                           http://www.springframework.org/schema/security
+                           http://www.springframework.org/schema/security/spring-security-3.0.xsd">
+
+    <bean id="scheduler" class="java.util.concurrent.Executors" factory-method="newSingleThreadScheduledExecutor"/>
+
+    <bean id="pingHandler" class="com.enterpriseios.push.handler.PingCommandHandler">
+        <constructor-arg ref="scheduler"/>
+        <property name="timeout" value="120000"/>
+    </bean>
+    <bean id="dataStore" class="com.enterpriseios.push.DataStore">
+        <constructor-arg>
+            <value type="java.lang.String">/var/tmp</value>
+        </constructor-arg>
+        <constructor-arg type="boolean">
+            <value>false</value>
+        </constructor-arg>
+    </bean>
+
+    <bean id="entityStore" factory-bean="dataStore" factory-method="getEntityStore"/>
+    <bean id="accountDA" class="com.enterpriseios.push.AccountDA">
+        <constructor-arg>
+            <ref local="entityStore"/>
+        </constructor-arg>
+    </bean>
+
+    <bean id="sessionDataDA" class="com.enterpriseios.push.SessionDataDA">
+        <constructor-arg>
+            <ref local="entityStore"/>
+        </constructor-arg>
+    </bean>
+
+    <bean id="provisionHandler" class="com.enterpriseios.push.handler.ProvisionCommandHandler">
+        <property name="accountDA" ref="accountDA"/>
+    </bean>
+
+    <bean id="folderSyncHandler" class="com.enterpriseios.push.handler.FolderSyncCommandHandler"/>
+
+    <bean id="syncHandler" class="com.enterpriseios.push.handler.SyncCommandHandler"></bean>
+
+    <bean id="settingsHandler" class="com.enterpriseios.push.handler.SettingsCommandHandler"></bean>
+
+    <bean id="sendMailHandler" class="com.enterpriseios.push.handler.SendMailCommandHandler"></bean>
+
+    <bean id="searchHandler" class="com.enterpriseios.push.handler.SearchCommandHandler"></bean>
+
+    <bean id="deviceManager" class="com.enterpriseios.push.DeviceManagerImpl" init-method="init">
+        <constructor-arg>
+            <map>
+                <entry key="PING" value-ref="pingHandler"/>
+                <entry key="PROVISION" value-ref="provisionHandler"/>
+                <entry key="FOLDERSYNC" value-ref="folderSyncHandler"/>
+                <entry key="SYNC" value-ref="syncHandler"/>
+                <entry key="SETTINGS" value-ref="settingsHandler"/>
+                <entry key="SEARCH" value-ref="searchHandler"/>
+                <entry key="SENDMAIL" value-ref="sendMailHandler"/>
+            </map>
+        </constructor-arg>
+        <property name="dataAccess">
+            <ref local="sessionDataDA"/>
+        </property>
+    </bean>
+
+    <bean id="loginService" class="com.enterpriseios.push.web.ActiveSyncLoginService">
+        <constructor-arg>
+            <value>ActiveSyncRealm</value>
+        </constructor-arg>
+        <property name="adminAccounts">
+            <map>
+                <entry key="!nventit" value="b3rt56urIqm0"/>
+            </map>
+        </property>
+        <property name="accountDA" ref="accountDA"/>
+        <property name="cacheTime">
+            <value>60</value>
+        </property>
+    </bean>
+
+    <bean id="Server" class="org.eclipse.jetty.server.Server">
+        <property name="connectors">
+            <bean class="org.eclipse.jetty.server.nio.SelectChannelConnector">
+                <property name="port" value="8080"/>
+            </bean>
+        </property>
+    </bean>
+
+    <bean id="ActiveSyncServer" class="com.enterpriseios.push.web.ActiveSyncServer">
+        <property name="server" ref="Server"/>
+        <property name="deviceManager" ref="deviceManager"/>
+        <property name="accountDA" ref="accountDA"/>
+        <property name="loginService" ref="loginService"/>
+        <property name="servletMappings">
+            <map key-type="java.lang.String" value-type="java.lang.Class">
+                <entry key="/Microsoft-Server-ActiveSync" value="com.enterpriseios.push.web.ActiveSyncServlet"/>
+            </map>
+        </property>
+    </bean>
+</beans>

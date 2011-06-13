@@ -1,0 +1,39 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+
+	<display-name>GWT-Maven-Archetype</display-name>
+    <filter>
+        <filter-name>springSecurityFilterChain</filter-name>
+        <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>springSecurityFilterChain</filter-name>
+        <url-pattern>/iOSController/*</url-pattern>
+    </filter-mapping>
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+    <listener>
+        <listener-class>org.springframework.security.web.session.HttpSessionEventPublisher</listener-class>
+    </listener>
+    <servlet>
+        <servlet-name>AccountService</servlet-name>
+        <servlet-class>com.enterpriseios.server.AccountServiceImpl</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DeviceMonitoringService</servlet-name>
+        <servlet-class>com.enterpriseios.server.DeviceMonitoringServiceImpl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AccountService</servlet-name>
+        <url-pattern>/iOSController/accountService</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DeviceMonitoringService</servlet-name>
+        <url-pattern>/iOSController/deviceMonitoringService</url-pattern>
+    </servlet-mapping>
+
+</web-app>
