@@ -1,0 +1,10 @@
+#!/bin/sh
+
+START_INI="--stop"
+START_INI="$START_INI OPTIONS=Server"
+
+JVM_ARGS=""
+JVM_ARGS="$JVM_ARGS -DSTOP.PORT=7151"
+JVM_ARGS="$JVM_ARGS -DSTOP.KEY=cumin"
+
+java $JVM_ARGS -jar start.jar $START_INI

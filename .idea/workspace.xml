@@ -1,0 +1,1570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CCaseConfig">
+    <option name="checkoutReserved" value="false" />
+    <option name="markExternalChangeAsUpToDate" value="true" />
+    <option name="checkInUseHijack" value="true" />
+    <option name="useUcmModel" value="true" />
+    <option name="synchOutside" value="false" />
+    <option name="isHistoryResticted" value="true" />
+    <option name="useIdenticalSwitch" value="true" />
+    <option name="synchActivitiesOnRefresh" value="true" />
+    <option name="lastScr" value="" />
+    <option name="scrTextFileName" value="" />
+    <option name="historyRevisionsNumber" value="4" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="8d2848c2-93aa-4595-80a8-59dab1ac6d18" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit/client/Account.java" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/client/Account.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit/client/AccountRemovalDialogBox.java" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/client/AccountRemovalDialogBox.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit/client/AccountRemovalDialogPanel.ui.xml" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/client/AccountRemovalDialogPanel.ui.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit/client/AccountService.java" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/client/AccountService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit/client/AccountServiceAsync.java" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/client/AccountServiceAsync.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit/client/Device.java" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/client/Device.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit/client/DeviceController.ui.xml" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/client/DeviceController.ui.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit/client/DeviceMonitoringService.java" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/client/DeviceMonitoringService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit/client/DeviceMonitoringServiceAsync.java" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/client/DeviceMonitoringServiceAsync.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit/client/DeviceNotFoundException.java" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/client/DeviceNotFoundException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit/client/PolicyDialogBox.java" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/client/PolicyDialogBox.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit/client/RadioButtonPolicyPanel.java" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/client/RadioButtonPolicyPanel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit/client/RangeLabelPager.java" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/client/RangeLabelPager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit/client/ShowMorePagerPanel.java" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/client/ShowMorePagerPanel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit/client/iOSController.java" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/client/iOSController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit/client/policies/CheckBoxPolicy.java" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/client/policies/CheckBoxPolicy.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit/client/policies/DropBoxPolicy.java" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/client/policies/DropBoxPolicy.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit/client/policies/Mediator.java" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/client/policies/Mediator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit/client/policies/MediatorImpl.java" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/client/policies/MediatorImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit/client/policies/NumericPolicy.java" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/client/policies/NumericPolicy.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit/client/policies/StaleObjectStateException.java" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/client/policies/StaleObjectStateException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit/client/policies/TogglePolicy.java" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/client/policies/TogglePolicy.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit/client/policies/ValueChangeable.java" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/client/policies/ValueChangeable.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit/client/policies/iPadPolicyDialogBox.java" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/client/policies/iPadPolicyDialogBox.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit/client/policies/iPadPolicyDialogPanel.ui.xml" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/client/policies/iPadPolicyDialogPanel.ui.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit/client/policies/iPhonePolicyDialogBox.java" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/client/policies/iPhonePolicyDialogBox.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit/client/policies/iPhonePolicyDialogPanel.ui.xml" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/client/policies/iPhonePolicyDialogPanel.ui.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit/iOSController.gwt.xml" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/iOSController.gwt.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit/server/AccountServiceImpl.java" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/server/AccountServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit/server/DeviceMonitoringServiceImpl.java" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/server/DeviceMonitoringServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/resources/com/yourinventit/public/iOSController.css" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/resources/com/enterpriseios/public/iOSController.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/resources/com/yourinventit/public/iOSController.html" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/resources/com/enterpriseios/public/iOSController.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/Account.java" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/Account.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/AccountDA.java" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/AccountDA.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/Base64CommandCodes.java" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/Base64CommandCodes.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/Base64ParameterCodes.java" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/Base64ParameterCodes.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/Base64QueryParser.java" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/Base64QueryParser.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/Change.java" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/Change.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/Command.java" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/Command.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/CommandHandler.java" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/CommandHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/DataStore.java" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/DataStore.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/Device.java" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/Device.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/DeviceManager.java" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/DeviceManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/DeviceManagerImpl.java" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/DeviceManagerImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/ProtocolException.java" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/ProtocolException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/Request.java" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/Request.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/SessionData.java" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/SessionData.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/SessionDataDA.java" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/SessionDataDA.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/handler/FolderSyncCommandHandler.java" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/handler/FolderSyncCommandHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/handler/PingCommandHandler.java" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/handler/PingCommandHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/handler/ProvisionCommandHandler.java" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/handler/ProvisionCommandHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/handler/SearchCommandHandler.java" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/handler/SearchCommandHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/handler/SendMailCommandHandler.java" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/handler/SendMailCommandHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/handler/SettingsCommandHandler.java" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/handler/SettingsCommandHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/handler/SyncCommandHandler.java" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/handler/SyncCommandHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/handler/WBXMLResponseHandler.java" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/handler/WBXMLResponseHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/spring/Main.java" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/spring/Main.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/web/ActiveSyncLoginService.java" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/web/ActiveSyncLoginService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/web/ActiveSyncServer.java" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/web/ActiveSyncServer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/web/ActiveSyncServlet.java" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/web/ActiveSyncServlet.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/web/wbxml/TagsTables.java" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/web/wbxml/TagsTables.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/web/wbxml/WBXMLTools.java" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/web/wbxml/WBXMLTools.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/web/wbxml/parser/CharsetMappings.java" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/web/wbxml/parser/CharsetMappings.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/web/wbxml/parser/EncoderHandler.java" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/web/wbxml/parser/EncoderHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/web/wbxml/parser/Wbxml.java" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/web/wbxml/parser/Wbxml.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/web/wbxml/parser/WbxmlEncoder.java" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/web/wbxml/parser/WbxmlEncoder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/web/wbxml/parser/WbxmlExtensionHandler.java" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/web/wbxml/parser/WbxmlExtensionHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/web/wbxml/parser/WbxmlParser.java" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/web/wbxml/parser/WbxmlParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.txt" afterPath="$PROJECT_DIR$/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jetty-push-distribution/jetty-push-distribution.iml" afterPath="$PROJECT_DIR$/jetty-push-distribution/jetty-push-distribution.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jetty-push-distribution/pom.xml" afterPath="$PROJECT_DIR$/jetty-push-distribution/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jetty-push2-webapp/pom.xml" afterPath="$PROJECT_DIR$/jetty-push2-webapp/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jetty-push2/pom.xml" afterPath="$PROJECT_DIR$/jetty-push2/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jetty-push2/src/main/resources/etc/spring/bean.xml" afterPath="$PROJECT_DIR$/jetty-push2/src/main/resources/etc/spring/bean.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit/client/policies" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/client/policies" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit/client" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/client" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit/server" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/server" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/resources/com/yourinventit/public/apple.png" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/resources/com/enterpriseios/public/apple.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/resources/com/yourinventit/public/camera_icon.jpg" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/resources/com/enterpriseios/public/camera_icon.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/resources/com/yourinventit/public/iPad_top.png" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/resources/com/enterpriseios/public/iPad_top.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/resources/com/yourinventit/public/iPad_wipe.png" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/resources/com/enterpriseios/public/iPad_wipe.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/resources/com/yourinventit/public/iPhone-icon.png" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/resources/com/enterpriseios/public/iPhone-icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/resources/com/yourinventit/public/iPhone_top.png" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/resources/com/enterpriseios/public/iPhone_top.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/resources/com/yourinventit/public/iPhone_wipe.png" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/resources/com/enterpriseios/public/iPhone_wipe.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/resources/com/yourinventit/public/safari.jpg" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/resources/com/enterpriseios/public/safari.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/resources/com/yourinventit/public" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/resources/com/enterpriseios/public" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/resources/com/yourinventit" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/resources/com/enterpriseios" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/test/java/com/yourinventit/client" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/test/java/com/enterpriseios/client" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/test/java/com/yourinventit" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/test/java/com/enterpriseios" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/handler" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/handler" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/spring" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/spring" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/web/wbxml/parser" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/web/wbxml/parser" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/web/wbxml" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/web/wbxml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/web" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/web" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/test/java/com/yourinventit" afterPath="$PROJECT_DIR$/jetty-push2/src/test/java/com/enterpriseios" />
+    </list>
+    <list id="0fc47310-7a30-4b6a-8c39-2b2b383d0be5" name="Revert: add saveOrUpdateJobForPushRequest method to JobDAO in order to use @RetryOnOptimisticLockFailure" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jetty-push2-webapp/jetty-push2-webapp.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jetty-push2/inventit-jetty-push.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit/client/DeviceController.java" afterPath="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/client/DeviceController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/DeviceImpl.java" afterPath="$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/DeviceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_gwt_gwt_servlet_2_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_gwt_gwt_servlet_2_0_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_gwt_gwt_user_2_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_gwt_gwt_user_2_0_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/gson.xml" afterPath="$PROJECT_DIR$/.idea/libraries/gson.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cumin.ipr" afterPath="$PROJECT_DIR$/cumin.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cumin.iws" afterPath="$PROJECT_DIR$/cumin.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventit-push.iml" afterPath="$PROJECT_DIR$/inventit-push.iml" />
+    </list>
+    <ignored path="$USER_HOME$/.griffon/" />
+    <ignored path="$USER_HOME$/.grails/" />
+    <file path="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit/client/DeviceController.java" changelist="8d2848c2-93aa-4595-80a8-59dab1ac6d18" time="1307967683635" ignored="false" />
+    <file path="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/DeviceImpl.java" changelist="8d2848c2-93aa-4595-80a8-59dab1ac6d18" time="1307967683615" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager" choice="3" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+    <option name="REVERSE_PATCH" value="false" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="inventit-push" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jetty-push-distribution/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="150" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountServiceImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/server/AccountServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="29" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iOSController.gwt.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/iOSController.gwt.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jetty-push2-webapp/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jetty-push2-webapp/src/main/webapp/WEB-INF/applicationContext.xml">
+          <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeviceMonitoringServiceImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/server/DeviceMonitoringServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="13" selection-start="732" selection-end="732" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jetty-push2/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="10" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="20" selection-start="1001" selection-end="1001" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jetty-push2-webapp/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="24" selection-start="1494" selection-end="1494" vertical-scroll-proportion="0.8820513">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RadioButtonPolicyPanel.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/client/RadioButtonPolicyPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="13" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="CHECKOUT_INCLUDE_TAGS" value="false" />
+    <option name="UPDATE_CHANGES_POLICY" value="STASH" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/iphone-demo-webapp/src/main/java/com/yourinventit/server/stub_list_all_iphones.java" />
+        <option value="$PROJECT_DIR$/iphone-demo-webapp/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/iphone-demo-webapp/src/main/java/com/yourinventit/client/iPhoneDemo.java" />
+        <option value="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit/client/PolicyDialogBox.java" />
+        <option value="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit/client/policies/iPhonePolicyDialogBox.java" />
+        <option value="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit/client/policies/iPadPolicyDialogBox.java" />
+        <option value="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit/client/DeviceController.ui.xml" />
+        <option value="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit/iOSController.gwt.xml" />
+        <option value="$PROJECT_DIR$/jetty-push2-webapp/src/main/webapp/WEB-INF/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/jetty-push2/src/main/java/com/yourinventit/push/DeviceImpl.java" />
+        <option value="$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/yourinventit/client/DeviceController.java" />
+        <option value="$PROJECT_DIR$/README.txt" />
+        <option value="$PROJECT_DIR$/jetty-push-distribution/pom.xml" />
+        <option value="$PROJECT_DIR$/jetty-push2/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/jetty-push2-webapp/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="/usr/share/maven" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="jetty-push2-webapp" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="push :: Project" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="push :: Project" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="jetty-push :: Distribution Assemblies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_INTERNAL" />
+  </component>
+  <component name="ModuleEditorState">
+    <option name="LAST_EDITED_MODULE_NAME" />
+    <option name="LAST_EDITED_TAB_NAME" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state />
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetty-push2-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetty-push2-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetty-push2-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetty-push2-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetty-push2-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetty-push2-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetty-push2-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetty-push2-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="enterpriseios" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetty-push2-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="enterpriseios" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetty-push2-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="enterpriseios" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetty-push2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetty-push2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetty-push2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetty-push2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="etc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetty-push2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="push" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetty-push2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetty-push2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="distribution" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetty-push2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assembly" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jetty-push-distribution" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Favorites" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth1" value="213" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth0" value="173" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth3" value="35" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth2" value="194" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth2" value="159" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth1" value="180" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder4" value="4" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth0" value="155" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth4" value="954" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth3" value="155" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth4" value="988" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="options.lastSelected" value="MavenSettings" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder4" value="4" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder2" value="2" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder0" value="0" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RunManager" selected="GWT Configuration.iPhoneDemo">
+    <configuration default="false" name="iPhoneDemo" type="GWT.ConfigurationType" factoryName="GWT Configuration" temporary="true">
+      <module name="iphone-demo-webapp" />
+      <option name="RUN_PAGE" value="iPhoneDemo/iPhoneDemo.html" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PushServer" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false">
+        <pattern>
+          <option name="PATTERN" value="com.yourinventit.push.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.yourinventit.push.PushServer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="jetty-push" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Application" type="GWT.ConfigurationType" factoryName="GWT Configuration" temporary="true">
+      <module name="iphone-demo-webapp" />
+      <option name="RUN_PAGE" value="com.yourinventit.Application/Application.html" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+        <option name="ValidateXdebugSetup" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings">
+          <MavenGeneralSettings>
+            <option name="checksumPolicy" value="FAIL" />
+            <option name="failureBehavior" value="FAST" />
+            <option name="mavenHome" value="" />
+            <option name="mavenSettingsFile" value="" />
+            <option name="nonRecursive" value="false" />
+            <option name="overriddenLocalRepository" value="" />
+            <option name="pluginUpdatePolicy" value="DO_NOT_UPDATE" />
+            <option name="printErrorStackTraces" value="false" />
+            <option name="snapshotUpdatePolicy" value="ALWAYS_UPDATE" />
+            <option name="usePluginRegistry" value="false" />
+            <option name="workOffline" value="false" />
+          </MavenGeneralSettings>
+        </option>
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="jreName" value="#JAVA_INTERNAL" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" adl_options="" air_descriptor_path="" air_program_params="" air_publisher_id="" air_root_dir_path="" air_run_mode="AppDescriptor" browser_family="FIREFOX" class_name="" debugger_sdk="Module SDK" html_or_swf_file_path="" launcher_type="OSDefault" main_class_name="" method_name="" module_name="" output_log_level="" package_name="" player_path="/Applications/Flash Player.app/Contents/MacOS/Flash Player" port="0" run_mode="HtmlOrSwfFile" run_trusted="false" scope="Class" socket_policy_port="0" url_to_launch="http://">
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GWT.ConfigurationType" factoryName="GWT Configuration">
+      <module name="" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="FtpUpload" enabled="false">
+          <server_id />
+          <server_name />
+        </option>
+        <option name="Maven.BeforeRunTask" enabled="false" />
+        <option name="ValidateXdebugSetup" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="GWT Configuration.iPhoneDemo" />
+      <item index="1" class="java.lang.String" itemvalue="Application.PushServer" />
+      <item index="2" class="java.lang.String" itemvalue="GWT Configuration.Application" />
+    </list>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <configuration useDefault="false">$PROJECT_DIR$/../../.subversion</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/jetty-push2" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/jetty-push2" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/jetty-push2-webapp" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/jetty-push2-webapp" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/jetty-push-distribution" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/jetty-push-distribution" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d2848c2-93aa-4595-80a8-59dab1ac6d18" name="Default" comment="" />
+      <created>1278847807547</created>
+      <updated>1278847807547</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Revert: add saveOrUpdateJobForPushRequest method to JobDAO in order to use @RetryOnOptimisticLockFailure">
+      <changelist id="273284a0-9374-44b3-b3aa-5cdca1c81dab" name="Revert: add saveOrUpdateJobForPushRequest method to JobDAO in order to use @RetryOnOptimisticLockFailure" comment="" />
+      <created>1292206930454</created>
+      <updated>1292206930454</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Revert: add saveOrUpdateJobForPushRequest method to JobDAO in order to use @RetryOnOptimisticLockFailure">
+      <changelist id="0fc47310-7a30-4b6a-8c39-2b2b383d0be5" name="Revert: add saveOrUpdateJobForPushRequest method to JobDAO in order to use @RetryOnOptimisticLockFailure" comment="" />
+      <created>1292745270095</created>
+      <updated>1292745270095</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="35" y="25" width="1920" height="1117" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289941" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32898697" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896304" sideWeight="0.0" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1" sideWeight="0.6359077" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16096257" sideWeight="0.6359077" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3640923" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36449704" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="ENABLE_BACKGROUND_PROCESSES" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="VssConfiguration">
+    <option name="CLIENT_PATH" value="" />
+    <option name="SRCSAFEINI_PATH" value="" />
+    <option name="USER_NAME" value="" />
+    <option name="PWD" value="" />
+    <CheckoutOptions>
+      <option name="COMMENT" value="" />
+      <option name="DO_NOT_GET_LATEST_VERSION" value="false" />
+      <option name="REPLACE_WRITABLE" value="false" />
+      <option name="RECURSIVE" value="false" />
+    </CheckoutOptions>
+    <CheckinOptions>
+      <option name="COMMENT" value="" />
+      <option name="KEEP_CHECKED_OUT" value="false" />
+      <option name="RECURSIVE" value="false" />
+    </CheckinOptions>
+    <AddOptions>
+      <option name="STORE_ONLY_LATEST_VERSION" value="false" />
+      <option name="CHECK_OUT_IMMEDIATELY" value="false" />
+    </AddOptions>
+    <UndocheckoutOptions>
+      <option name="MAKE_WRITABLE" value="false" />
+      <option name="REPLACE_LOCAL_COPY" value="2" />
+      <option name="RECURSIVE" value="false" />
+    </UndocheckoutOptions>
+    <GetOptions>
+      <option name="REPLACE_WRITABLE" value="0" />
+      <option name="MAKE_WRITABLE" value="false" />
+      <option name="ANSWER_NEGATIVELY" value="false" />
+      <option name="ANSWER_POSITIVELY" value="false" />
+      <option name="RECURSIVE" value="false" />
+      <option name="VERSION" />
+    </GetOptions>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/DeviceManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/Device.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="12" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/handler/FolderSyncCommandHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="31" selection-start="838" selection-end="845" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jetty-push2/src/main/java/com/enterpriseios/push/DeviceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="54" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jetty-push2/src/main/resources/etc/spring/bean.xml">
+      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="19.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jetty-push2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="10" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jetty-push-distribution/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="150" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/server/DeviceMonitoringServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="13" selection-start="732" selection-end="732" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/client/RadioButtonPolicyPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/server/AccountServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="29" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jetty-push2-webapp/src/main/java/com/enterpriseios/iOSController.gwt.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jetty-push2-webapp/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jetty-push2-webapp/src/main/webapp/WEB-INF/applicationContext.xml">
+      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="20" selection-start="1001" selection-end="1001" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jetty-push2-webapp/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="24" selection-start="1494" selection-end="1494" vertical-scroll-proportion="0.8820513">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions />
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions />
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

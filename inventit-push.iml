@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration />
+    </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/jetty-push2-webapp/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/jetty-push2-webapp/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="gwt" name="GWT">
+      <configuration>
+        <setting name="compilerMaxHeapSize" value="128" />
+        <setting name="gwtScriptOutputStyle" value="DETAILED" />
+        <setting name="gwtSdkUrl" value="" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.easymock:easymockclassextension:2.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.easymock:easymock:2.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.dbunit:dbunit:2.3.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.poi:poi:3.1-FINAL" level="project" />
+    <orderEntry type="library" name="Maven: log4j:log4j:1.2.15" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: commons-collections:commons-collections:3.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: commons-configuration:commons-configuration:1.6" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: commons-digester:commons-digester:1.8" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: commons-beanutils:commons-beanutils:1.7.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: commons-beanutils:commons-beanutils-core:1.8.0" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.5.10" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-log4j12:1.5.10" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:jcl-over-slf4j:1.5.10" level="project" />
+  </component>
+</module>
+

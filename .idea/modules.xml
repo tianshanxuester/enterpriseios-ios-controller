@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/jetty-push2/inventit-jetty-push.iml" filepath="$PROJECT_DIR$/jetty-push2/inventit-jetty-push.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inventit-push.iml" filepath="$PROJECT_DIR$/inventit-push.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jetty-push-distribution/jetty-push-distribution.iml" filepath="$PROJECT_DIR$/jetty-push-distribution/jetty-push-distribution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jetty-push2-webapp/jetty-push2-webapp.iml" filepath="$PROJECT_DIR$/jetty-push2-webapp/jetty-push2-webapp.iml" />
+    </modules>
+  </component>
+</project>
+
